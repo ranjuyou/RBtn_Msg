@@ -97,7 +97,6 @@
             this.rbYesNo.TabStop = true;
             this.rbYesNo.Text = "YesNo";
             this.rbYesNo.UseVisualStyleBackColor = true;
-            this.rbYesNo.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // rbQuestion
             // 
@@ -109,7 +108,6 @@
             this.rbQuestion.TabStop = true;
             this.rbQuestion.Text = "Question";
             this.rbQuestion.UseVisualStyleBackColor = true;
-            this.rbQuestion.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // rbInformation
             // 
@@ -121,7 +119,6 @@
             this.rbInformation.TabStop = true;
             this.rbInformation.Text = "Information";
             this.rbInformation.UseVisualStyleBackColor = true;
-            this.rbInformation.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
             // 
             // rbError
             // 
@@ -143,6 +140,7 @@
             this.btnShow.TabIndex = 2;
             this.btnShow.Text = "Show";
             this.btnShow.UseVisualStyleBackColor = true;
+            this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
             // 
             // Form1
             // 
